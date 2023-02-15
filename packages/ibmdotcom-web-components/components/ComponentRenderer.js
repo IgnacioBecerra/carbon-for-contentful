@@ -37,6 +37,9 @@ const Image = dynamic(import("./Image"), {
 const LeadspaceWithSearch = dynamic(import("./LeadspaceWithSearch"), {
   ssr: false,
 });
+const LogoGrid = dynamic(import("./LogoGrid"), {
+  ssr: false,
+});
 const Quote = dynamic(import("./Quote"), {
   ssr: false,
 });
@@ -44,6 +47,12 @@ const SearchWithTypeahead = dynamic(import("./SearchWithTypeahead"), {
   ssr: false,
 });
 const TabsExtended = dynamic(import("./TabsExtended"), {
+  ssr: false,
+});
+const TagLink = dynamic(import("./TagLink"), {
+  ssr: false,
+});
+const TagGroup = dynamic(import("./TagGroup"), {
   ssr: false,
 });
 const VideoPlayer = dynamic(import("./VideoPlayer"), {
@@ -69,12 +78,15 @@ const map = {
   "dds-horizontal-rule": HorizontalRule,
   "dds-image": Image,
   "dds-leadspace": Leadspace,
+  "dds-logo-grid": LogoGrid,
   "dds-link-with-icon": LinkWithIcon,
   "dds-leadspace-with-search": LeadspaceWithSearch,
   "dds-quote": Quote,
   "dds-search-with-typeahead": SearchWithTypeahead,
   "dds-table-of-contents": TableOfContents,
   "dds-tabs-extended": TabsExtended,
+  "dds-tag-link": TagLink,
+  "dds-tag-group": TagGroup,
   "dds-video-player-container": VideoPlayer,
   themeZone: ThemeZone,
 };
