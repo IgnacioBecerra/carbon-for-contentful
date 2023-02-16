@@ -40,14 +40,11 @@ const Image = dynamic(import("./Image"), {
 const LeadspaceWithSearch = dynamic(import("./LeadspaceWithSearch"), {
   ssr: false,
 });
-<<<<<<< Updated upstream
-=======
 const LeavingIBM = dynamic(import("./LeavingIBM"), { ssr: false });
 const LocaleModal = dynamic(import("./LocaleModal"), { ssr: false });
 const LogoGrid = dynamic(import("./LogoGrid"), {
   ssr: false,
 });
->>>>>>> Stashed changes
 const Quote = dynamic(import("./Quote"), {
   ssr: false,
 });
@@ -85,23 +82,15 @@ const map = {
   "dds-image": Image,
   "dds-leaving-ibm-container": LeavingIBM,
   "dds-leadspace": Leadspace,
-<<<<<<< Updated upstream
-=======
   "dds-locale-modal": LocaleModal,
   "dds-logo-grid": LogoGrid,
->>>>>>> Stashed changes
   "dds-link-with-icon": LinkWithIcon,
   "dds-leadspace-with-search": LeadspaceWithSearch,
   "dds-quote": Quote,
   "dds-search-with-typeahead": SearchWithTypeahead,
   "dds-table-of-contents": TableOfContents,
   "dds-tabs-extended": TabsExtended,
-<<<<<<< Updated upstream
-=======
-  "dds-tag-link": TagLink,
-  "dds-tag-group": TagGroup,
   "dds-universal-banner": UniversalBanner,
->>>>>>> Stashed changes
   "dds-video-player-container": VideoPlayer,
   themeZone: ThemeZone,
 };
