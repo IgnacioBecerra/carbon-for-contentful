@@ -24,6 +24,9 @@ const ContentGroupPictograms = dynamic(import("./ContentGroupPictograms"), {
 });
 const ContentItem = dynamic(import("./ContentItem"), { ssr: false });
 const Card = dynamic(import("./Card"), { ssr: false });
+const CTA = dynamic(import("./CTA"), { ssr: false });
+const FeatureCard = dynamic(import("./FeatureCard"), { ssr: false });
+const FeatureSection = dynamic(import("./FeatureSection"), { ssr: false });
 const Leadspace = dynamic(import("./Leadspace"), { ssr: false });
 const LinkWithIcon = dynamic(import("./LinkWithIcon"), { ssr: false });
 const TableOfContents = dynamic(import("./TableOfContents"), { ssr: false });
@@ -37,6 +40,14 @@ const Image = dynamic(import("./Image"), {
 const LeadspaceWithSearch = dynamic(import("./LeadspaceWithSearch"), {
   ssr: false,
 });
+<<<<<<< Updated upstream
+=======
+const LeavingIBM = dynamic(import("./LeavingIBM"), { ssr: false });
+const LocaleModal = dynamic(import("./LocaleModal"), { ssr: false });
+const LogoGrid = dynamic(import("./LogoGrid"), {
+  ssr: false,
+});
+>>>>>>> Stashed changes
 const Quote = dynamic(import("./Quote"), {
   ssr: false,
 });
@@ -51,6 +62,7 @@ const VideoPlayer = dynamic(import("./VideoPlayer"), {
 });
 const CardSection = dynamic(import("./CardSection"), { ssr: false });
 const ThemeZone = dynamic(import("./ThemeZone"), { ssr: false });
+const UniversalBanner = dynamic(import("./UniversalBanner"), { ssr: false });
 
 // import exploreMore from "../data/exploreMore.json";
 
@@ -65,16 +77,31 @@ const map = {
   "dds-card-group": CardGroup,
   "dds-card-section-with-images": CardSection,
   "dds-card-section-carousel": CardSectionCarousel,
+  "dds-cta": CTA,
+  "dds-feature-card": FeatureCard,
+  "dds-feature-section": FeatureSection,
   "dds-background-media": BackgroundMedia,
   "dds-horizontal-rule": HorizontalRule,
   "dds-image": Image,
+  "dds-leaving-ibm-container": LeavingIBM,
   "dds-leadspace": Leadspace,
+<<<<<<< Updated upstream
+=======
+  "dds-locale-modal": LocaleModal,
+  "dds-logo-grid": LogoGrid,
+>>>>>>> Stashed changes
   "dds-link-with-icon": LinkWithIcon,
   "dds-leadspace-with-search": LeadspaceWithSearch,
   "dds-quote": Quote,
   "dds-search-with-typeahead": SearchWithTypeahead,
   "dds-table-of-contents": TableOfContents,
   "dds-tabs-extended": TabsExtended,
+<<<<<<< Updated upstream
+=======
+  "dds-tag-link": TagLink,
+  "dds-tag-group": TagGroup,
+  "dds-universal-banner": UniversalBanner,
+>>>>>>> Stashed changes
   "dds-video-player-container": VideoPlayer,
   themeZone: ThemeZone,
 };

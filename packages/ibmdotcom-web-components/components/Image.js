@@ -13,6 +13,7 @@ import DDSImageItem from "@carbon/ibmdotcom-web-components/es/components-react/i
 export default function Image(content) {
   const { alt, defaultSrc, border, heading, copy, lightbox, imageItems } =
     content?.fields || {};
+  const { slot } = content || {};
 
   const { url } = defaultSrc?.fields?.file || {};
   return (
@@ -23,6 +24,7 @@ export default function Image(content) {
       heading={heading}
       copy={copy}
       lightbox={lightbox}
+      slot={slot}
     >
       {!imageItems
         ? undefined

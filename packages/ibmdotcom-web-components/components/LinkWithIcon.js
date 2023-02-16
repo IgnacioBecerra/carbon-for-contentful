@@ -37,14 +37,17 @@ const iconMap = {
 };
 
 export default function LinkWithIcon(content) {
-  const { iconPlacement, disabled, href, text, icon, slot } =
+  const { iconPlacement, disabled, href, text, icon, slot, leavingIbm } =
     content?.fields || {};
+
+    const leavingBoolean = !leavingIbm ? undefined : leavingIbm;
   return (
     <DDSLinkWithIcon
       iconPlacement={iconPlacement}
       disabled={disabled}
       href={href}
       slot={slot}
+      data-leaving-ibm={leavingBoolean}
     >
       {text} {iconMap[icon]}
     </DDSLinkWithIcon>
